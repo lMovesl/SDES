@@ -6,8 +6,8 @@
 #include <QString>
 
 class SDES : public QObject {
-Q_OBJECT
-public:
+    Q_OBJECT
+private:
     QString m_key1;
     QString m_key2;
     QString ip;
